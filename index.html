@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Powell Analytics — Data Analytics & Dashboards</title>
+  <meta name="description" content="Modern data analytics for small businesses: Power BI dashboards, Excel automation, and SQL insights.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/scripts.js"></script>
+</head>
+<body class="theme-light">
+  <header class="container header">
+    <a class="logo" href="#">Powell Analytics</a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#background">Background</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact" class="btn btn-primary">Contact</a>
+      <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle dark mode">🌓</button>
+    </nav>
+  </header>
+
+  <section class="hero container">
+    <div class="hero-copy">
+      <h1>Turn data into decisions.</h1>
+      <p>I help small businesses unlock insights with clean data pipelines, automated Excel/Power BI reports, and clear dashboards.</p>
+      <div class="cta">
+        <a href="#services" class="btn btn-primary">View Services</a>
+        <a href="#portfolio" class="btn btn-secondary">See Work</a>
+      </div>
+      <ul class="trust">
+        <li>Power BI</li>
+        <li>Excel</li>
+        <li>SQL</li>
+      </ul>
+    </div>
+    <div class="hero-art">
+      <div class="dashboard-card shadow">
+        <img src="images/placeholder-dashboard.png" alt="Dashboard preview" />
+      </div>
+    </div>
+  </section>
+
+  <section class="container section" id="about">
+    <h2>About Me</h2>
+    <p>I'm Jason Powell, a data analytics specialist focused on helping local businesses make smarter decisions. I build practical dashboards, automate tedious reporting, and surface the KPIs that matter.</p>
+  </section>
+
+  <section class="container section" id="background">
+    <h2>Background</h2>
+    <div class="cards three">
+      <div class="card shadow">
+        <h3>Skills</h3>
+        <ul>
+          <li>Power BI (data modeling, DAX)</li>
+          <li>Excel (Power Query, Pivot Tables, automation)</li>
+          <li>SQL (data cleaning, joins, CTEs)</li>
+        </ul>
+      </div>
+      <div class="card shadow">
+        <h3>Focus Areas</h3>
+        <ul>
+          <li>Revenue & KPI tracking</li>
+          <li>Operations & inventory</li>
+          <li>Marketing performance</li>
+        </ul>
+      </div>
+      <div class="card shadow">
+        <h3>Results</h3>
+        <p>Examples: identified $700k in unpaid claims and improved revenue recovery by 15%. (Use bulletproof, anonymized summaries here.)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section" id="services">
+    <h2>Services</h2>
+    <div class="cards three">
+      <div class="card shadow">
+        <h3>Dashboards</h3>
+        <p>Interactive dashboards in Power BI with drilldowns, trends, and KPI alerts.</p>
+      </div>
+      <div class="card shadow">
+        <h3>Excel Automation</h3>
+        <p>Replace manual spreadsheets with automated, refreshable models.</p>
+      </div>
+      <div class="card shadow">
+        <h3>SQL & Data Prep</h3>
+        <p>Clean, normalize, and join data from multiple sources into a single source of truth.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section" id="portfolio">
+    <h2>Portfolio</h2>
+    <p class="subtle">Screenshots & GIFs only (no sensitive data). Replace placeholders in <code>/images</code>.</p>
+    <div class="cards three">
+      <div class="card shadow">
+        <img src="images/portfolio-1.png" alt="Project 1" class="thumb"/>
+        <h3>Clinic KPI Tracker</h3>
+        <p>Dashboard analyzing denials, AR aging, and unpaid claims to drive recovery.</p>
+      </div>
+      <div class="card shadow">
+        <img src="images/portfolio-2.png" alt="Project 2" class="thumb"/>
+        <h3>Gym Member Insights</h3>
+        <p>Cohorts, churn, and campaign performance for member retention.</p>
+      </div>
+      <div class="card shadow">
+        <img src="images/portfolio-3.png" alt="Project 3" class="thumb"/>
+        <h3>Retail Sales Trends</h3>
+        <p>SKU-level trends, seasonality, and inventory optimization.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section" id="contact">
+    <h2>Contact</h2>
+    <p>Have a question or a project in mind? Send a note below.</p>
+    <form action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST" class="form card shadow">
+      <div class="grid">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@example.com" required>
+        </label>
+      </div>
+      <label>
+        <span>Message</span>
+        <textarea name="message" rows="5" placeholder="Tell me about your goals…" required></textarea>
+      </label>
+      <button class="btn btn-primary" type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Powell Analytics. All rights reserved.</p>
+    <div class="socials">
+      <a href="mailto:your@email.com" aria-label="Email">Email</a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
